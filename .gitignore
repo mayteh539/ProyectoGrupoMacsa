@@ -1,0 +1,14 @@
+# Ambientes y credenciales
+.env
+.env.*
+!.env.example
+
+# Dependencias
+node_modules/
+
+# OpenCode cache / temporal
+.opencode/
+
+# Logs
+*.log
+npm-debug.log*
