@@ -3,12 +3,37 @@
 .env.*
 !.env.example
 
-# Dependencias
-node_modules/
-
 # OpenCode cache / temporal
 .opencode/
+
+# Dependencias y artefactos Dart / Flutter
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+.flutter-plugins-dependencies
+app.*.symbols
+app.*.map.json
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
 
 # Logs
 *.log
 npm-debug.log*
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/local.properties
